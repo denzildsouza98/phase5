@@ -15,7 +15,7 @@ public class Login {
 		 driver.findElement(By.className("login")).click();
 		 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		 driver.findElement(By.id("email")).sendKeys("denzildsouza@gmail.com");
-		 driver.findElement(By.id("passwd")).sendKeys("000100");
+		 driver.findElement(By.id("passwd")).sendKeys("00000");
 		 driver.findElement(By.id("SubmitLogin")).click();
 		 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
